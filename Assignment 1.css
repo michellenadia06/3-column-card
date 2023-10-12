@@ -1,0 +1,95 @@
+.subject{
+    width: 80%;
+    display: flex;
+    height: 500px;
+    margin: auto;
+    padding: 5  0px;
+    font-family: sans-serif;
+}
+
+
+.sedan,.suvs,.luxury{
+    padding: 50px;
+    color: white;
+    width: 30%;
+}
+
+
+.sedan{
+    border-radius: 5px 0 0 5px;
+    background-color: #E18524;
+    width: 30%;
+}
+
+
+.suvs{
+    background-color: #006971;
+    width: 30%;
+}
+
+
+.luxury{
+    border-radius: 0 5px 5px 0;
+    background-color: #00403f;
+}
+
+
+h1{
+    font-size: 250%;
+    font-weight: 250;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+
+p{
+    font-family: 'fuggles', cursive;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+button{
+    width: 100px;
+    text-align: center;
+    margin-top: 70px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.one:hover{
+    background-color: #E18524;
+}
+
+
+.two:hover{
+    background-color: #006971;
+}
+
+
+.three:hover{
+    background-color: #00403f;
+}
+
+
+@media only screen and (max-width: 565px){
+    .subject{
+        flex-direction: column;
+        height: 315px;
+    }
+
+
+    .sedan{
+        border-radius: 5px 5px 0 0;
+        background-color: #E18524;
+    }
+
+
+    .luxury{
+        border-radius: 0 0 5px 5px;
+        background-color: #00403f;
+    }
+}
